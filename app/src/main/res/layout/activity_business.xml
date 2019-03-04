@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        app:layout_constraintBottom_toTopOf="@+id/btn_leave"
+        app:layout_constraintTop_toTopOf="@+id/btn_leave">
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/btn_listOfShipments"
+            android:layout_width="376dp"
+            android:layout_height="107dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/Grey"
+            android:elevation="10dp"
+            android:text="@string/list_of_shipments"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/btn_userList"
+            android:layout_width="376dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/Grey"
+            android:elevation="10dp"
+            android:text="@string/all_of_the_agents_on_the_map"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/Black"
+            android:textSize="24sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintEnd_toEndOf="@+id/btn_listOfShipments"
+            app:layout_constraintStart_toStartOf="@+id/btn_listOfShipments"
+            app:layout_constraintTop_toBottomOf="@+id/btn_listOfShipments" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/btn_startDeliver"
+            android:layout_width="232dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/Grey"
+            android:elevation="10dp"
+            android:text="Start Deliver"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/Black"
+            android:textSize="24sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintEnd_toEndOf="@+id/btn_listOfShipments"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@+id/btn_listOfShipments"
+            app:layout_constraintTop_toBottomOf="@+id/btn_leave" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/btn_delivery"
+            android:layout_width="161dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/Grey"
+            android:elevation="10dp"
+            android:text="@string/add_delivery"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/Black"
+            android:textSize="24sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintStart_toStartOf="@+id/btn_userList"
+            app:layout_constraintTop_toBottomOf="@+id/btn_userList" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/btn_leave"
+            android:layout_width="160dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/Grey"
+            android:elevation="10dp"
+            android:text="@string/leave"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/Black"
+            android:textSize="24sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintEnd_toEndOf="@+id/btn_userList"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintStart_toEndOf="@+id/btn_delivery"
+            app:layout_constraintTop_toBottomOf="@+id/btn_userList" />
+    </android.support.constraint.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/user_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="365dp">
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

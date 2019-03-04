@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "717453699577",
+    "firebase_url": "https://flllowalong.firebaseio.com",
+    "project_id": "flllowalong",
+    "storage_bucket": "flllowalong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717453699577:android:9fc3c9c27291f7a7",
+        "android_client_info": {
+          "package_name": "com.erez8.gymko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717453699577-8tt1js4jh0s24ssja4v5jp75mapqj33e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_0L0zqJ3aox0EXJ4XjS6SGcUcnOOHiIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
